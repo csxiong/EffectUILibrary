@@ -40,7 +40,9 @@ public class MainActivity extends BaseActivity<ActivityMainBinding> {
 
     @Override
     public void initData() {
+        mDataList.add(new FeatureBean("语音识别", "/main/speech"));
         mDataList.add(new FeatureBean("相册页面", "/camera/album"));
+        mDataList.add(new FeatureBean("视频列表", "/main/videoList"));
         mDataList.add(new FeatureBean("多人拍照的手势控件", "/main/capture"));
         mDataList.add(new FeatureBean("新多人拍照的手势控件", "/main/new/capture"));
         mDataList.add(new FeatureBean("多边形", "/main/polygon"));

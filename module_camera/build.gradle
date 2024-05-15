@@ -1,5 +1,9 @@
 apply from: config
 
+android {
+    ndkVersion "21.4.7075529"
+}
+
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.12'
@@ -8,5 +12,4 @@ dependencies {
 
     api xport
     annotationProcessor aroutercompiler
-    implementation 'io.alterac.blurkit:blurkit:1.1.0'
 }

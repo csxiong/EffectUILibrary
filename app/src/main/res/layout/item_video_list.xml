@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        app:cardCornerRadius="6dp">
+
+        <me.csxiong.uiux.ui.video.view.XVideoContainer
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </me.csxiong.uiux.ui.video.view.XVideoContainer>
+
+    </androidx.cardview.widget.CardView>
+
+
+</layout>

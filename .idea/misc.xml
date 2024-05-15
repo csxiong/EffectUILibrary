@@ -1,5 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_color_wheel.xml" value="0.39166666666666666" />
+        <entry key="app/src/main/res/layout/activity_gradient.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/activity_video.xml" value="0.38385416666666666" />
+        <entry key="app/src/main/res/layout/item_video_list.xml" value="0.38385416666666666" />
+        <entry key="module_camera/src/main/res/layout/activity_photo.xml" value="0.2947916666666667" />
+        <entry key="module_camera/src/main/res/layout/item_album.xml" value="0.2947916666666667" />
+        <entry key="module_camera/src/main/res/layout/item_pager_image.xml" value="0.2947916666666667" />
+      </map>
+    </option>
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />
@@ -44,7 +56,7 @@
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="liberica-1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
